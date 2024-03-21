@@ -1,0 +1,28 @@
+.termometro {
+    position: relative;
+    width: 20px; /* Ancho del termómetro */
+    height: 300px; /* Altura del termómetro */
+  }
+  
+  .termometro-palo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc; /* Color del palo */
+  }
+  
+  .termometro-circulo {
+    position: absolute;
+    width: 3rem; /* Diámetro del círculo */
+    height: 3rem; /* Diámetro del círculo */
+    border-radius: 50%;
+    background-color: black; /* Color del círculo */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .termometro-circulo.rojo {
+    background-color: #f00; /* Color rojo del círculo */
+  }
+  
