@@ -1,0 +1,7 @@
+{
+  "name": "CBP_Termometr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
