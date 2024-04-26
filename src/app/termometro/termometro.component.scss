@@ -7,15 +7,15 @@
   .termometro-palo {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 70%;
     height: 100%;
     background-color: #ccc; /* Color del palo */
   }
   
   .termometro-circulo {
     position: absolute;
-    width: 3rem; /* Diámetro del círculo */
-    height: 3rem; /* Diámetro del círculo */
+    width: 2rem; /* Diámetro del círculo */
+    height: 2rem; /* Diámetro del círculo */
     border-radius: 50%;
     background-color: black; /* Color del círculo */
     left: 50%;
