@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { TermometroModule } from '../termometro/termometro.module';
+import { TermometroComponent } from '../termometro/termometro.component';
 
 
 @NgModule({
@@ -16,6 +17,6 @@ import { TermometroModule } from '../termometro/termometro.module';
     HomePageRoutingModule,
     TermometroModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, TermometroComponent]
 })
 export class HomePageModule {}
