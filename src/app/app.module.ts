@@ -14,7 +14,6 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [AppComponent],
   imports: [BrowserModule, provideFirebaseApp(() => initializeApp(environment.firebase)), provideDatabase(() => getDatabase()),IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
-  exports,
   bootstrap: [AppComponent],
 })
 export class AppModule {}
